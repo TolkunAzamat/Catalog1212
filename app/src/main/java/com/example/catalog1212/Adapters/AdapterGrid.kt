@@ -48,7 +48,7 @@ class AdapterGrid (private val array: ArrayList<Model>,private val context: Frag
             bundle.putSerializable("KEY", item)
 
             context.supportFragmentManager.beginTransaction()
-                .replace(R.id.hfragments, DetailFragment::class.java, bundle)
+                .replace(R.id.nav_host_fragment, DetailFragment::class.java, bundle)
                 .addToBackStack(null).commit()
         }
     }

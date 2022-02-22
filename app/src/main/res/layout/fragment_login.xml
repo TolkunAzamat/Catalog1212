@@ -24,6 +24,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:text="p"
         android:layout_marginTop="15dp"
         />
     <TextView
@@ -38,6 +39,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:text="k"
         android:layout_marginTop="15dp"
         />
     <Button
